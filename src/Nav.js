@@ -12,9 +12,6 @@ function Nav() {
 	  <Link style={navStyle} to="/home">
 			<li>Home</li>
 		</Link>
-		<Link style={navStyle} to="/about">
-			<li>About</li>
-		</Link>
 		<Link style={navStyle} to="/contact">
 			<li>Contact</li>
 		</Link>

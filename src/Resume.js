@@ -1,10 +1,11 @@
 import React from 'react';
+import cv from "./image/bachamma.svg";
 import './App.css';
 
 function Resume() {
   return (
-    <div >
-      <h1>Resume Page</h1>
+    <div  className= 'divresume'>
+      <img src={cv}className="myresume" alt="Resume"/>
     </div>
   );
 }

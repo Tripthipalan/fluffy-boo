@@ -9,7 +9,7 @@ function Home() {
 			<Cell col={12}>
 				<img 
 					src="img.JPG"
-					className="img"
+					className="img"  
 				/>
 				
 				<div className="banner-text">
@@ -29,13 +29,18 @@ function Home() {
 						<i className=" fa fa-github-square"  aria-hidden="true" />
 					</a>
 				{/*Instagram*/}
-					<a href="http://google.com" rel="noopener noreferrer"target="_blank">
-						<i className=" fa fa-instagram-square"  aria-hidden="true" />
+					<a href="http://www.instagram.com/tripthi_palan_" rel="noopener noreferrer"target="_blank">
+						<i className="fa fa-instagram" aria-hidden="true" />
 					</a>
 					
 				{/*Facebook*/}
 					<a href="http://google.com" rel="noopener noreferrer"target="_blank">
-						<i className=" fa fa-facebook-square-square"  aria-hidden="true" />
+						<i className="fa fa-facebook-square"  aria-hidden="true" />
+					</a>
+
+				{/*Twitter*/}
+				<a href="https://mobile.twitter.com/PalanTripthi" rel="noopener noreferrer"target="_blank">
+						<i className="fa fa-twitter-square"  aria-hidden="true" />
 					</a>
 				</div>
 				
