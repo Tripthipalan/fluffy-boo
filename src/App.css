@@ -10,23 +10,68 @@ background: linear-gradient(to bottom, #dd1818, #333333); /* W3C, IE 10+/ Edge, 
 
 nav{
 	display: flex;
-	justify-content:space-around;
+	justify-content:space-evenly;
 	align-items:center;
-	min-height: 10vh;
+	height: 15vh;
 	background: rgb(73, 79, 82);
 	color:white;
+	font-size: 30px;
+	width: 100%;
+
 	background: #333333;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to bottom, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to bottom, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .nav-links{
-	width:40%;
 	display: flex;
-	justify-content: space-around;
+	position: fixed;
+	font-size: 30px;
+	text-decoration: none;
+	justify-content: space-evenly;
 	align-items: center;
 	list-style: none;
+	list-style-type: none;
+}
 
+li{
+	float: right;	
+}
+
+
+
+
+ul{
+	list-style: none;
+	
+}
+
+nav ul li{
+	display: inline-block;
+	font-size: calc(10px + 2vmin);
+	color: white;
+	margin-left: 20px;
+	margin-right: 10px;
+	max-width: 10vw;
+	max-height: 10vh;
+	padding-bottom: 20px;
+
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-o-transform: scale(0.8);
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+}
+
+nav ul li {
+	text-decoration: none;
+}
+
+nav ul li:hover{
+	font-weight: 900;
+	letter-spacing: .08em;
+	color: black;
 }
 .landing-grid{
 	
@@ -42,11 +87,13 @@ margin: auto;
 }
 
 .img{
-	padding-top: 2em;
-	padding-right: 70%;
+	margin-top: 1em;
+	margin-right: 70%;
 	width: 20%;
 	height: 50%;
-	border-radius: 20em;
+	border-radius: 50%;
+	background-color: blueviolet;
+	
 	
 }
 
@@ -66,7 +113,12 @@ tr td{
 	
 }
 
-
+@media (min-width:600px) {
+	tr td{
+		font-size: 20px;
+		
+	}
+	}
 
 .banner-text{
 	background-color:black;
@@ -74,15 +126,18 @@ tr td{
 	width: 80%;
 	margin: auto;
 	border-radius: 10px;
-	margin-top: 2em;
+	margin-top: 4em;
 	
 	
 }
 
 .banner-text h1{
-	font-size: 30px;
+	font-size: calc(20px + 2vmin);
 	font-weight:bold;
 	color:white;
+	
+	margin-left: 20px;
+	margin-right: 10px;
 }
 .banner-text hr{
 	border-top: 5px dotted white;
@@ -92,7 +147,8 @@ tr td{
 
 .banner-text p{
 	color:white;
-	font-size: 20px;
+	font-size: calc(10px + 2vmin);
+	
 	
 }
 .social-links{
@@ -104,10 +160,11 @@ tr td{
 
 .social-links i{
 	color:white;
-	font-size: 3em;
-	padding: 8px;
+	font-size: calc(20px + 2vmin);
+	padding: 3px;
 	
 }
+
 
 .divresume{
 	padding-top: 5px;
@@ -117,3 +174,4 @@ tr td{
 	margin-right: 46vh;
 	background: white;
 }
+ 

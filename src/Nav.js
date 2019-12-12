@@ -7,7 +7,7 @@ function Nav() {
 	}
   return (
     <nav >
-      <h3>TRIPTHI PALAN</h3>
+      
 	  <ul className= "nav-links">
 	  <Link style={navStyle} to="/home">
 			<li>Home</li>

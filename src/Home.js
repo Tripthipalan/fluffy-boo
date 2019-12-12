@@ -11,6 +11,8 @@ function Home() {
 					src="img.JPG"
 					className="img"  
 				/>
+
+				
 				
 				<div className="banner-text">
 					<h1>Web Developer</h1>
@@ -20,26 +22,47 @@ function Home() {
 				<div className="social-links">
 				
 				{/*LinkedIn*/}
-					<a href="https://www.linkedin.com/in/tripthi-palan-410aaa183?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BlncNg0avTs%2B7vn0BZDi2lg%3D%3D" rel="noopener noreferrer"target="_blank">
-						<i className=" fa fa-linkedin-square"  aria-hidden="true" />
+					<a 
+						href="https://www.linkedin.com/in/tripthi-palan-410aaa183?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BlncNg0avTs%2B7vn0BZDi2lg%3D%3D" 
+						rel="noopener noreferrer"
+						target="_blank"
+					>
+							<i className=" fa fa-linkedin-square"  aria-hidden="true" />
 					</a>
 					
 				{/*Github*/}
-					<a href="https://github.com/Tripthipalan" rel="noopener noreferrer"target="_blank">
+					<a
+						 href="https://github.com/Tripthipalan" 
+						 rel="noopener noreferrer"
+						 target="_blank"
+					>
 						<i className=" fa fa-github-square"  aria-hidden="true" />
 					</a>
+				
 				{/*Instagram*/}
-					<a href="http://www.instagram.com/tripthi_palan_" rel="noopener noreferrer"target="_blank">
+					<a 
+						href="http://www.instagram.com/tripthi_palan_" 
+						rel="noopener noreferrer"
+						target="_blank"
+					>
 						<i className="fa fa-instagram" aria-hidden="true" />
 					</a>
 					
 				{/*Facebook*/}
-					<a href="http://google.com" rel="noopener noreferrer"target="_blank">
+					<a 
+						href="http://google.com" 
+						rel="noopener noreferrer"
+						target="_blank"
+					>
 						<i className="fa fa-facebook-square"  aria-hidden="true" />
 					</a>
 
 				{/*Twitter*/}
-				<a href="https://mobile.twitter.com/PalanTripthi" rel="noopener noreferrer"target="_blank">
+					<a
+						 href="https://mobile.twitter.com/PalanTripthi" 
+						 rel="noopener noreferrer"
+						 target="_blank"
+					>
 						<i className="fa fa-twitter-square"  aria-hidden="true" />
 					</a>
 				</div>
