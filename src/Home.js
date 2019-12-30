@@ -8,12 +8,12 @@ function Home() {
 		<Grid className="landing-grid">
 			<Cell col={12}>
 				<img 
-					src="img.JPG"
-					className="img"  
+				className="img"  
+					src={require('./image/img.jpg')}
+					
 				/>
+				<h1>TRIPTHI PALAN</h1>
 
-				
-				
 				<div className="banner-text">
 					<h1>Web Developer</h1>
 					
@@ -50,7 +50,7 @@ function Home() {
 					
 				{/*Facebook*/}
 					<a 
-						href="http://google.com" 
+						href="https://www.facebook.com/tripthi.palan.982" 
 						rel="noopener noreferrer"
 						target="_blank"
 					>

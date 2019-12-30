@@ -17,7 +17,8 @@ nav{
 	color:white;
 	font-size: 30px;
 	width: 100%;
-
+	margin-right: 50%;
+	
 	background: #333333;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to bottom, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to bottom, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -32,10 +33,11 @@ background: linear-gradient(to bottom, #dd1818, #333333); /* W3C, IE 10+/ Edge, 
 	align-items: center;
 	list-style: none;
 	list-style-type: none;
+	
 }
 
 li{
-	float: right;	
+	padding: 10px;
 }
 
 
@@ -54,7 +56,7 @@ nav ul li{
 	margin-right: 10px;
 	max-width: 10vw;
 	max-height: 10vh;
-	padding-bottom: 20px;
+	padding-bottom: 50px;
 
 	-webkit-transform: scale(0.8);
 	-moz-transform: scale(0.8);
@@ -69,9 +71,10 @@ nav ul li {
 }
 
 nav ul li:hover{
-	font-weight: 900;
-	letter-spacing: .08em;
+	
+	font-weight: 700;
 	color: black;
+	border: 2px solid black;
 }
 .landing-grid{
 	
@@ -87,14 +90,13 @@ margin: auto;
 }
 
 .img{
-	margin-top: 1em;
-	margin-right: 70%;
-	width: 20%;
-	height: 50%;
+	margin-top: 0.5em;
+	width: 15%;
+	height: 45%;
 	border-radius: 50%;
-	background-color: blueviolet;
-	
-	
+}
+.img:hover{
+	border: 2px solid black;
 }
 
 table{
@@ -129,6 +131,7 @@ tr td{
 	margin-top: 4em;
 	
 	
+	
 }
 
 .banner-text h1{
@@ -141,6 +144,7 @@ tr td{
 }
 .banner-text hr{
 	border-top: 5px dotted white;
+	
 	width: 60%;
 	margin:auto;
 }
